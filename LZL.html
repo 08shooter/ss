@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>出入凭证</title>
+    <title>Document</title>
     <style>
         .center {
             text-align: center;
@@ -76,7 +76,8 @@
 <body>
     <p class="center">出校凭证</p>
 
-    <b class="fs">&nbsp;&nbsp;&nbsp;&nbsp;廖祖龙&nbsp;&nbsp;(201536137)&nbsp;</b><span
+    <b
+        class="fs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;廖祖龙&nbsp;&nbsp;(201536137)&nbsp;</b><span
         class="fs">&nbsp;&nbsp;同学可于</span><span id="time1" class="bold">显示时间位置</span><span class="fs">出校。</span>
     </div>
     <div>
@@ -85,15 +86,26 @@
     </div>
     <p>&nbsp;</p>
     <div>
-        <span class="color1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="color1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             该凭证</span>
         <b id="time3" class="color1">这是时间</b>
         <span class="color1">后将失效，请尽快出校</span>
-
+        <!-- <script>
+            var time = 11;
+            function startTime() {
+                times = parseInt(time);
+                times = times - 1;
+                time = times.toString();
+                if (parseInt(times) < 0)
+                    return;
+                document.getElementById('time3').innerHTML = times;
+                setTimeout('startTime()', 1000)
+            }
+        </script> -->
+        <p>&nbsp;</p>
+        <p><img src="./IMG_6165.GIF" alt="" width="350" height="120"></p>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+            id="time4" class="color2">写入</span>
 </body>
-<p>&nbsp;</p>
-<p><img src="./出.png" alt="" width="350" height="120"></p>
-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span id="time4"
-    class="color2">写入</span>
 
 </html>
